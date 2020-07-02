@@ -1,13 +1,51 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 export default function Landing() {
     return (
-        <div id="jumbotron" className="jumbotron">
-            <h1 className="display-4">Hello, world!</h1>
-            <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr className="my-4" />
-            <p>It uses utility classNames for typography and spacing to space content out within the larger container.</p>
-            <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+
+
+        //  Home 
+        <div className="top-content">
+        	
+            <div className="inner-bg">
+                <div className="container">
+                	
+                    <div className="row">
+                        <div className="col-sm-8 col-sm-offset-2 text">
+                            <h1 className="wow fadeInLeftBig">Jeremy <strong>Nelson</strong></h1>
+                            <div className="description wow fadeInLeftBig">
+                            	<p>
+	                            	I am a full stack web developer
+                            	</p>
+                            </div>
+                            <div className="top-big-link wow fadeInUp">
+                            	<Link className="btn btn-link-1" to="/projects">Projects</Link>
+                            	<Link className="btn btn-link-2 scroll-link" to="/about">About Me</Link>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
         </div>
+
+
+
+
+
+
+
+
+        // <section id="landingPage" classNameName=" h-100 " >
+        //     <div  classNameName="row h-100 justify-content-center align-items-center">
+        //         <div classNameName="col">
+        //             <h1 classNameName="display-4">Hello, Im Jeremy!</h1>
+        //             <p classNameName="lead"> A Full Stack Developer.</p>
+        //             <hr classNameName="my-4" />
+        //         </div>
+        //     </div>
+        // </section>
     )
 }
