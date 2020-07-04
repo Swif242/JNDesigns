@@ -4,7 +4,6 @@ import Landing from './pages/Landing'
 import About from './pages/About'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
-import JumboTron from './components/JumboTron'
 import Navbar from './components/NavBar'
 import Footer from './components/Footer'
 import './App.css';
@@ -14,7 +13,6 @@ function App() {
   return (
     <Router>
       <div>
-        {/* <JumboTron /> */}
         <Navbar />
         <Route exact path="/" component={Landing} />
         <Route exact path="/about" component={About} />

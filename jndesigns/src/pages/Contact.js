@@ -8,7 +8,7 @@ function Contact() {
 	        <div className="container">
 	            <div className="row">
 	                <div className="col-sm-12 about-us section-description wow fadeIn">
-	                    <h2><strong>Contact</strong> Me</h2>
+	                    <h1><strong>Contact</strong> Me</h1>
 	                    <div className="divider-1 wow fadeInUp"><span></span></div>
 	                </div>
 	            </div>
