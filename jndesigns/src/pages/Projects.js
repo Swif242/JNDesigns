@@ -12,7 +12,7 @@ function Projects() {
         <div id="projects" className="container">
             <div className="row">
 					<div className="col-sm-12 more-features section-description wow fadeIn">
-						<h1 id="projectTitle"><strong>My</strong> Projects</h1>
+						<h2 id="projectTitle"><strong>My</strong> Projects</h2>
 						<div className="divider-1 wow fadeInUp"><span></span></div>
 					</div>
 				</div>
