@@ -1,5 +1,5 @@
 [![Project Badge](https://img.shields.io/badge/Application-Awesome-green)](https://github.com/Swif242/ReadMe-Generator)
-# Budget-Tracker
+# JNDesigns
 
 ## Description 
 
