@@ -28,7 +28,7 @@ function NavBar() {
                         <Link className="nav-link" to="/contact" >Contact</Link>
                     </li>
                 </ul>
-                {/* <div id="date"></div> */}
+                
             </div>
         </nav>
 

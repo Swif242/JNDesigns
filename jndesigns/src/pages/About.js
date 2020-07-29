@@ -1,6 +1,8 @@
 import React from 'react'
 import Jeremy from '../images/Jeremy.JPG'
 
+
+
 export default function Home() {
 	return (
 
@@ -13,9 +15,11 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="row">
+				
 					<div className="col-sm-5 more-features-box wow fadeInLeft">
-						<img src={Jeremy} alt="Jeremy" />
+						<img src={Jeremy} alt="Jeremy" style={{borderRadius:20}} />
 					</div>
+				
 					<div className="col-sm-7 more-features-box wow fadeInUp">
 
 						<div className="more-features-box-text">

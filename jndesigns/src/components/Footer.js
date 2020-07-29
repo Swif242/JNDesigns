@@ -15,6 +15,7 @@ function Footer() {
         <div className="row">
           <div className="col-sm-12 footer-copyright">
             &copy; Portfolio by <strong>Jeremy Nelson</strong>.
+            <p>Email: <strong><a href="mailto:JRNels242@Gmail.com">JRNels242@Gmail.com</a></strong>.</p>
           </div>
         </div>
       </div>
